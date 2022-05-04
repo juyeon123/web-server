@@ -1,0 +1,26 @@
+server {
+    listen 80 default_server;
+
+    access_log /var/log/nginx/app.access_log main;
+    error_log /var/log/nginx/app.error_log;
+
+    location / {
+        root   /usr/share/nginx/html;
+        index  index.html index.htm;
+        try_files $uri $uri/ /index.html;
+    }
+    
+    location /cluster {
+        proxy_pass http://192.168.10.3:8080/cluster;
+    }
+
+    location /db {
+        proxy_pass http://192.168.10.3:8080/db;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+}
