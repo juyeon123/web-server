@@ -63,7 +63,7 @@ function DashboardCard01() {
     <div className="flex flex-col col-span-full sm:col-span-6 xl:col-span-4 bg-white shadow-lg rounded-sm border border-slate-200">
       <div className="px-5 pt-5">
         <div className="flex items-start">
-          <h2 className="text-lg font-semibold text-slate-800 mb-2 chart-main-text">Compute Engine! {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}</h2>
+          <h2 className="text-lg font-semibold text-slate-800 mb-2 chart-main-text">Compute Engine!! {'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}</h2>
           <div className="text-3xl font-bold text-slate-800 mr-2 chart-sub-text">$24,780</div>
           <div className="text-sm font-semibold text-white px-1.5 bg-green-500 rounded-full">+49%</div>
         </div>
